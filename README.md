@@ -1,9 +1,6 @@
 # docker-rust-baremetal
-A Dockerized enviroment for following along with Philipp Oppermann's [Writing an OS in Rust](https://os.phil-opp.com/).
-
-The Rust code in this repository was taken from the [post-02](https://github.com/phil-opp/blog_os/tree/post-02) branch
-of the [phil-opp/blog_os](https://github.com/phil-opp/blog_os/) repository which has the code from the blog under the
-MIT license. It simply prints a Cyan "Hello World!" to the screen in VGA text mode.
+A Dockerized enviroment for playing with Rust on baremetal with 256-color 320x200 VGA graphics. Inspired by Philipp
+Oppermann's [Writing an OS in Rust](https://os.phil-opp.com/).
 
 # Prerequisites
 These programs must be installed on the host operating system. All other software is managed within the Docker container

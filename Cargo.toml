@@ -5,7 +5,7 @@ authors = ["Aaron Jones <aaron@vexing.codes"]
 edition = "2018"
 
 [dependencies]
-bootloader = "0.8.6"
+bootloader = { version = "0.8.6", features = ["vga_320x200"] }
 
 [package.metadata.bootimage]
 run-args = ["-vnc", "0.0.0.0:0"]
