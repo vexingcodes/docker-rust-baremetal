@@ -1,0 +1,11 @@
+[package]
+name = "docker-rust-baremetal"
+version = "0.1.0"
+authors = ["Aaron Jones <aaron@vexing.codes"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.8.6"
+
+[package.metadata.bootimage]
+run-args = ["-vnc", "0.0.0.0:0"]
